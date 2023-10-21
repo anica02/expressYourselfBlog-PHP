@@ -1,0 +1,218 @@
+.formFont{
+    font-size: 17px;
+ 
+}
+.formFont2{
+    font-size: 15px;
+    font-weight: bold;
+}
+.btnU{
+    background-color: #fff;
+    color: #ed5f5e;
+    padding: 5px 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btnU:hover{
+    background-color: #ed5f5e;
+    color: #fff;
+}
+
+#signIn #formSign input[id="firstNameSg"],input[id="lastNameSg"],input[id="emailSg"],input[id="passwdSg"],input[id="passwdSgCon"],input[id="username"]{
+    border: none;
+    border-bottom: #000 solid 2px ;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding:10px 0px;
+   
+}
+#logIn #formLog input[id="emailLog"],input[id="passwdLog"]{
+    border: none;
+    border-bottom: #000 solid 2px ;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding:10px 0px;
+   
+}
+#logIn #formLog input[id="emailLog"]:focus,input[id="passwdLog"]:focus{
+    border-bottom:#ed5f5e solid 2px ;
+    outline: none;
+}
+#formCP input[id="postTitle"]{
+    border: none;
+    border-bottom: #000 solid 2px ;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding:10px 0px;
+    font-weight: bold;
+   
+}
+#formCP textarea{
+    border: none;
+    border-bottom: #000 solid 2px ;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding:10px 0px;
+    height: 12rem;
+    font-weight: bold;
+   
+}
+#formCP textarea:focus{
+    border-bottom:#ed5f5e solid 2px ;
+    border-right:#ed5f5e solid 2px ;
+    outline: none;
+   
+}
+#formCP input[id="postTitle"]:focus{
+    border-bottom:#ed5f5e solid 2px ;
+    outline: none;
+   
+}
+#signIn #formSign input[id="firstNameSg"]:focus,input[id="lastNameSg"]:focus,input[id="emailSg"]:focus,input[id="passwdSg"]:focus,input[id="passwdSgCon"]:focus,input[id="username"]:focus{
+    border-bottom:#ed5f5e solid 2px ;
+    outline: none;
+  
+}
+
+.borderR{
+    border-bottom: 5px;
+}
+#linkLogIn:hover{
+   border-bottom: 2px solid #ed5f5e;
+   margin-bottom: 2px;
+   font-weight: bold;
+    
+}
+#signIn{
+    padding: 0px 20px;
+}
+.heightCon{
+    height:79%;
+}
+.marginTop{
+    margin-top: 50px;
+}
+.widthCon{
+    width: 35% !important;
+}
+
+.fontS{
+    font-size: 15px;
+}
+
+.dataUser{
+    display: none;
+}
+
+#userImg{
+    width: 30% !important;
+}
+#userImg img{
+    margin:0% auto;
+}
+
+.username{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.position{
+    z-index: 1;
+}
+
+.like{
+    color:rgb(153, 153, 153);
+    font-size:30px; 
+    /* margin-left:47%;  */
+    margin:1% 47%;
+
+}
+.f-r{
+    float:right;
+}
+
+.mar-l-2{
+    margin-left:10px;
+}
+.ml-10{
+    margin-left:10px;
+}
+
+.liked{
+    color:#ed5f5e;
+}
+
+.margin-bottom{
+    margin-bottom: 4%;
+}
+
+.margin{
+    margin-bottom: 50px;
+}
+
+.margin100{
+    margin-bottom: 210px;
+}
+.margin120{
+    margin-bottom: 230px;
+}
+
+#authorImg{
+    width:30%;
+}
+#autrhoImg img{
+    width:70%;
+}
+
+.fontSize{
+    font-size: 17px;
+}
+.paddingX{
+    padding:0 5%;
+}
+.fR{
+    float:right;
+}
+.fL{
+    float:left;
+}
+
+@media screen and (max-width:1024px){
+    #authorImg{
+        width:45%;
+        margin:0% auto;
+    }
+    .fontSize{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:426px){
+    .fontSize{
+        font-size: 10px;
+    }
+}
+
+.contact-form-item input[type="text"], .contact-form-item input[type="password"], .contact-form-item textarea, .contact-form-item select {
+    background: #f5f5f5;
+    border: none;
+    color: #000;
+    font-size: 0.9em;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.form-margin{
+    margin:3% 0% 15% 0%;
+}
+
+.msg-margin-b{
+    margin-bottom:40%;
+}
